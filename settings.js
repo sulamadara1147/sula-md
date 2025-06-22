@@ -20,8 +20,8 @@ ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK
 ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,    
 WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "false" : process.env.WELCOME_GOODBYE,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
-ADMIN_EVENTS: process.env.ADMIN_EVENTS === undefined ? 'true' : process.env.ADMIN_EVENTS,
-WELCOME: process.env.WELCOME === undefined ? 'true' : process.env.WELCOME
+ADMIN_EVENTS: process.env.ADMIN_EVENTS === undefined ? 'false' : process.env.ADMIN_EVENTS,
+WELCOME: process.env.WELCOME === undefined ? 'false' : process.env.WELCOME
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
 ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
